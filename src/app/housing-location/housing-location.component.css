@@ -1,10 +1,12 @@
+/* Put these styles in: src/app/housing-location/housing-location.component.css */
+
 .listing {
   background: var(--accent-color);
   border-radius: 30px;
   padding-bottom: 30px;
 }
 .listing-heading {
-  color: #605dc8;
+  color: var(--primary-color);
   padding: 10px 20px 0 20px;
 }
 .listing-photo {
@@ -23,7 +25,7 @@
 section.listing a {
   padding-left: 20px;
   text-decoration: none;
-  color: #605dc8;
+  color: var(--primary-color);
 }
 section.listing a::after {
   content: "\203A";
